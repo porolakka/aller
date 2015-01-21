@@ -31,8 +31,8 @@
         </ul>
         <h3 class="text-muted">aller</h3>
       </div>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+
+      <div id="myCarousel" class="carousel slide">
 	  <!-- Carousel items -->
 	  <div class="carousel-inner" role="listbox">
 	    <div class="active item"><img src="img/call/calousel01.jpg" alt="会社概要" /></div>

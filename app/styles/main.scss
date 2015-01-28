@@ -1,6 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "top";
 // endbower
 
 .browsehappy {
@@ -46,19 +47,6 @@ body {
 
 .container-narrow > hr {
   margin: 30px 0;
-}
-
-.ochi {margin-top: 20px;
-    .col-md-4 {
-        h3 {font-size:1.25em;
-            font-weight: 600;
-            width:100%;
-            line-height: 100%;
-            border-bottom:4px solid #690;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-    }
 }
 
 /* Main marketing message and sign up button */

@@ -34,6 +34,7 @@ border-radius: 5px;
 
 h2.color-d {
 @include color-h2($gray-color);
-background-image:url("../img/bg/h2.gif");
-background-repeat:no-repeat;
 }
+//	background-image:url(../img/bg/h2.gif);
+//	background-repeat:no-repeat;
+//	background-position:top left;

@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="btn3"><a href="#">食べもの</a></li>
-        <li class="btn2"><a href="#">調理（代替・除去）</a></li>
+        <li class="btn3"><a href="#">調理（代替・除去）</a></li>
         <li class="btn2"><a href="#">クイズ</a></li>
         </li>
       </ul>
@@ -60,6 +60,8 @@
 	</div>
       </div>
 	
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
 	  <!-- Carousel items -->
 	  <div class="carousel-inner" role="listbox">
 	    <div class="active item"><img src="img/call/calousel01.jpg" alt="会社概要" /></div>

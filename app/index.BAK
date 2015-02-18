@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="btn3"><a href="#">食べもの</a></li>
-        <li class="btn3"><a href="#">調理（代替・除去）</a></li>
+        <li class="btn2"><a href="#">調理（代替・除去）</a></li>
         <li class="btn2"><a href="#">クイズ</a></li>
         </li>
       </ul>

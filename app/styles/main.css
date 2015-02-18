@@ -52,27 +52,9 @@ body {
 	}
 }
 
-#navi {
-	max-width: 880px;
-}
-
-.btn3 {
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
-}
-
-.btn2 {
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
+.btn {
+	border: 1px;
+	border-color: #666633;
 }
 
 

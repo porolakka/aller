@@ -12,8 +12,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 /* Space out content a bit */
 body {
-  padding-top: 0px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #wrapper {
@@ -26,71 +26,50 @@ body {
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* Custom page header */
 .header {
 	max-width: 880px;
-	p {
+}
+
+.header_text {
 		margin: 0px;
 		padding-top: 5px;
 		padding-bottom: 3px;
 	}
-	.header_title {
+
+.header_title {
 	background-color: #666633;
 	width: 100%;
-	margin-bottom: 15px;
-	border-radius: 10px;
-		h1 {
-		font-weight: bold;
-		color: #FFFFFF;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin-left: 30px;
-		margin-top: 0px;
-		margin-bottom: 10px;
-		}
 	}
-}
 
-#navi {
-	max-width: 880px;
-}
-
-.btn3 {
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
+h1 {
 	font-weight: bold;
-	color: #000000;
-}
-
-.btn2 {
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
-}
-
+	color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+		}
 
 /* Custom page footer */
 .footer {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background-color: #666633;
-	text-align: center;
-	width: 100%;
-	p {
+	padding-top: 3px;
 	color: #FFFFFF;
-	font-weight: bold;
+	padding-bottom: 3px;
 	font-size: 0.85em;
+	font-weight: bold;
+	background-color: #669933;
 	text-align: center;
 	margin: 0px;
-}
-
+	width: 100%;
 }
 
 .container-narrow > hr {

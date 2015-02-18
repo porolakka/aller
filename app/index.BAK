@@ -27,7 +27,7 @@
         <div class="header_title">
         	<h1>食物アレルギーと生きる</h1>
         </div>
-	
+	<div class="row">
 		<nav class="navbar navbar-default" role="navigation">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -58,7 +58,7 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-	
+	</div>
       </div>
 	
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -90,7 +90,7 @@
             このサイトでは食生活の知恵を専門家の監修のもと掲載します。</p>
         </div>
         <div class="col-md-4">
-            <h3>外出先でも安心のメニューを用意したい</h3>
+            <h3>外出先でも安心な食事</h3>
             <p>幼稚園では管理栄養士やスタッフがメニューを管理していますが、
             外食の際に油断してしまい事故に至るケースがありました。
             ご家族はもちろん、周囲の方が安心して食事を用意できるよう、

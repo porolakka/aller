@@ -2,6 +2,8 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
+	<meta name="keywords" content="食物,水アレルギー,子供,食育,アイ・コラボレーション" />
+	<meta name="description" content="このサイトは食物アレルギーと生きる子どもと親、周りの方のための食育サイトです。" />
     <title>食物アレルギーと生きる</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
@@ -78,7 +80,6 @@
   </a>
 	</div>
     <h2 class="color-d">サイトの目的　<small>私たちが目指すもの</small></h2>
-	<div class="sample">aaa</div>
     <div class="row ind-md">
         <div class="col-md-4">
             <h3>味気ない食事にサラバ</h3>

@@ -7,6 +7,7 @@ $default-margin-top: 20px;
 $big-margin-top: $default-margin-top + 30px;
 $middle-small-margin-top: $big-margin-top / 2;
 
+
 .ind-md {
     margin-top: 20px;
     margin-bottom: 80px;
@@ -34,6 +35,9 @@ border-radius: 5px;
 
 h2.color-d {
 @include color-h2($gray-color);
+background-image:url(../img/bg/h2.gif);
+background-repeat:no-repeat;
+background-position:top left;
 }
 //	background-image:url(../img/bg/h2.gif);
 //	background-repeat:no-repeat;

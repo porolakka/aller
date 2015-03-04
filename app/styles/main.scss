@@ -1,9 +1,20 @@
+/* import icon-font */
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
+
+/* import bower:scss */
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "top";
+// Common settings //
+
+/* Theme color(Green) */
+$default-theme-color: #663;
+$gray-color: #F5F5F5;
+
+/* Default margin*/
+$default-margin-top: 20px;
+$big-margin-top: $default-margin-top + 30px;
+$middle-small-margin-top: $big-margin-top / 2;
 
 .browsehappy {
   margin: 0.2em 0;
@@ -53,25 +64,6 @@ body {
 		}
 	}
 }
-.btn3 {
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
-}
-
-.btn2 {
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
-}
-
 
 /* Custom page footer */
 .footer {
@@ -86,8 +78,7 @@ body {
 	font-size: 0.85em;
 	text-align: center;
 	margin: 0px;
-}
-
+	}
 }
 
 .container-narrow > hr {
@@ -136,3 +127,15 @@ body {
     border-bottom: 0;
   }
 }
+
+// import customized scss
+
+/* import heading scss  */
+@import "heading";
+
+/* import heading scss  */
+@import "navigation";
+
+/* import scss for index */
+@import "index"
+

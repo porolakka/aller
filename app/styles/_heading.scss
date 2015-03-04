@@ -12,14 +12,15 @@ border-radius: 5px;
 
 /* 見出し設定 */
 h2.color-d {
+@include color-h2($gray-color);
 background-image:url(../img/bg/h2.gif);
 background-repeat:no-repeat;
 background-position:top left;
-@include color-h2($gray-color);
 }
 //	background-image:url(../img/bg/h2.gif);
 //	background-repeat:no-repeat;
 //	background-position:top left;
+// @include color-h2($gray-color);
 
 
 // h3, 3列ボックス向けの見出し（下線付き）

@@ -1,0 +1,41 @@
+// h2 グラデーション付き見出し
+/* 見出し向け色設定 */
+@mixin color-h2($color) {
+$dark-color: darken($color, 10);
+padding: $default-margin-top;
+background: linear-gradient($color, $dark-color);
+color: #000;
+font-size:2em;
+text-decoration: none;
+border-radius: 5px;
+}
+
+/* 見出し設定 */
+h2.color-d {
+@include color-h2($gray-color);
+background-image:url(../img/bg/h2.gif);
+background-repeat:no-repeat;
+background-position:top left;
+}
+//	background-image:url(../img/bg/h2.gif);
+//	background-repeat:no-repeat;
+//	background-position:top left;
+// @include color-h2($gray-color);
+
+
+// h3, 3列ボックス向けの見出し（下線付き）
+/* h3見出し（下線付き）*/
+.ind-md {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    .col-md-4 {
+        h3 {font-size:1.25em;
+            font-weight: 600;
+            width:100%;
+            line-height: 100%;
+            border-bottom:2px solid $default-theme-color;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -24,7 +24,7 @@
 
     <div id="wrapper">
       <div class="header">
-      	<p class="header_text">食物アレルギーと生きる子どもと親、周りの方のための食育サイト</p>
+      	<p class="header_text">食板物アレルギーと生きる子どもと親、周りの方のための食育サイト</p>
         <div class="header_title">
         	<h1>食物アレルギーと生きる</h1>
         </div>
@@ -54,7 +54,7 @@
 	        <div class="form-group">
 	          <input type="text" class="form-control" placeholder="検索キーワードを入力">
 	        </div>
-	        <button type="サイト内検索" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>検索</button>
+	        <button type="サイト内検索" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>サイト内検索</button>
 	      </form>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -65,9 +65,9 @@
   <!-- Indicators -->
 	  <!-- Carousel items -->
 	  <div class="carousel-inner" role="listbox">
-	    <div class="active item"><img src="img/call/calousel01.jpg" alt="会社概要" /></div>
-	    <div class="item"><img src="img/call/calousel02.jpg" alt="会社概要" /></div>
-	    <div class="item"><img src="img/call/calousel03.jpg" alt="会社概要" /></div>
+	    <div class="active item"><img src="img/call/calousel01.jpg" alt="親子で安心" /></div>
+	    <div class="item"><img src="img/call/calousel02.jpg" alt="たくさんの食材" /></div>
+	    <div class="item"><img src="img/call/calousel03.jpg" alt="ゲーム感覚で食育" /></div>
 	  </div>
 	  <!-- Carousel nav -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -102,7 +102,7 @@
     </div> 
       
       <div class="footer">
-        <p>Copyright © 2015 Team4 collaboration. All rights reserved.</p>
+        <p>Copyright c 2015 Team4 collaboration. All rights reserved.</p>
       </div>
 
     </div>

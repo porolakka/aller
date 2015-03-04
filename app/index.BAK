@@ -78,6 +78,7 @@
   </a>
 	</div>
     <h2 class="color-d">サイトの目的　<small>私たちが目指すもの</small></h2>
+	<div class="sample">aaa</div>
     <div class="row ind-md">
         <div class="col-md-4">
             <h3>味気ない食事にサラバ</h3>
@@ -100,7 +101,7 @@
     </div> 
       
       <div class="footer">
-        <p>Copyright c 2015 Team4 collaboration. All rights reserved.</p>
+        <p>Copyright © 2015 Team4 collaboration. All rights reserved.</p>
       </div>
 
     </div>

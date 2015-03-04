@@ -1,0 +1,44 @@
+// index, 3colum, bold-title, separate-line
+
+$default-theme-color: #663;
+$gray-color: #F5F5F5;
+
+$default-margin-top: 20px;
+$big-margin-top: $default-margin-top + 30px;
+$middle-small-margin-top: $big-margin-top / 2;
+
+
+.ind-md {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    .col-md-4 {
+        h3 {font-size:1.25em;
+            font-weight: 600;
+            width:100%;
+            line-height: 100%;
+            border-bottom:4px solid $default-theme-color;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@mixin color-h2($color) {
+$dark-color: darken($color, 10);
+padding: $default-margin-top;
+background: linear-gradient($color, $dark-color);
+color: #000;
+font-size:2em;
+text-decoration: none;
+border-radius: 5px;
+}
+
+h2.color-d {
+@include color-h2($gray-color);
+background-image:url(../img/bg/h2.gif);
+background-repeat:no-repeat;
+background-position:top left;
+}
+//	background-image:url(../img/bg/h2.gif);
+//	background-repeat:no-repeat;
+//	background-position:top left;

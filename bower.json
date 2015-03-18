@@ -3,6 +3,8 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
-    "arctext-js": "*"
+    "arctext-js": "*",
+    "entropizer": "~0.1.3",
+    "jquery-entropizer": "~0.1.0"
   }
 }

@@ -1,16 +1,13 @@
+/* 共通変数の読み込み */
+@import "variable";
+
+/* import icon-font */
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
+
+/* import bower:scss */
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "top";
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 
 /* Space out content a bit */
 body {
@@ -53,25 +50,6 @@ body {
 		}
 	}
 }
-.btn3 {
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #CCCCCC;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
-}
-
-.btn2 {
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #CCCCCC;
-	font-weight: bold;
-	color: #000000;
-}
-
 
 /* Custom page footer */
 .footer {
@@ -86,8 +64,7 @@ body {
 	font-size: 0.85em;
 	text-align: center;
 	margin: 0px;
-}
-
+	}
 }
 
 .container-narrow > hr {
@@ -128,7 +105,7 @@ body {
 
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
@@ -137,6 +114,17 @@ body {
   }
 }
 
+<<<<<<< HEAD
 .toncotu{
 	width: 880px;
 }
+=======
+// 見出し・ナビのインポート
+
+/* import heading scss  */
+@import "heading";
+
+/* import navigation scss  */
+@import "navigation";
+
+>>>>>>> 9f1cb43c9514142234d5c4f8555e60c1464ae350

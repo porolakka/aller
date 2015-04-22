@@ -6,28 +6,29 @@ $gray-color: #F5F5F5;
 $default-margin-top: 20px;
 $big-margin-top: $default-margin-top + 30px;
 $middle-small-margin-top: $big-margin-top / 2;
+$small-margin-top: $default-margin-top /2;
 
 .ind-md {
-    margin-top: 20px;
+    margin-top: $small-margin-top;
     margin-bottom: 80px;
     .col-md-4 {
-        h3 {font-size:1.25em;
+        h3 {font-size:1.125em;
             font-weight: 600;
             width:100%;
             line-height: 100%;
-            border-bottom:4px solid $default-theme-color;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
+            border-bottom:1px solid $default-theme-color;
+            padding-bottom: $small-margin-top;
+            margin-bottom: $small-margin-top;
         }
     }
 }
 
 @mixin color-h2($color) {
 $dark-color: darken($color, 10);
-padding: $default-margin-top;
+padding: $small-margin-top;
 background: linear-gradient($color, $dark-color);
 color: #000;
-font-size:2em;
+font-size:1.8em;
 text-decoration: none;
 border-radius: 5px;
 }

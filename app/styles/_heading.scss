@@ -13,11 +13,11 @@ border-radius: 5px;
 /* å©èoÇµê›íË */
 h2.color-d {
 @include color-h2($gray-color);
-background-image:url(../img/bg/h2.gif);
+background-image:url(../img/bg/h2.jpg);
 background-repeat:no-repeat;
 background-position:top left;
 }
-//	background-image:url(../img/bg/h2.gif);
+//	background-image:url(../img/bg/h2.jpg);
 //	background-repeat:no-repeat;
 //	background-position:top left;
 // @include color-h2($gray-color);
